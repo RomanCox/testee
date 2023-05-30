@@ -1,7 +1,6 @@
 # Testing for Ecommerce Empire
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This project using TypeScipt, MUI
+this app is developed with React, TypeScipt & MUI (using DataGrid component).
 
 ![firstImage](https://github.com/RomanCox/testee/blob/main/public/readme.png)
 
