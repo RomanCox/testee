@@ -18,6 +18,7 @@ export const ImageStyled = styled('img')({
 export const DialogStyled = styled(Dialog)({});
 
 export const FullImageStyled = styled('img')({
-    width: 'auto',
-    height: '100%',
+    width: '600px',
+    height: '900px',
+    borderRadius: '5px',
 });
