@@ -52,11 +52,6 @@ export const Table = ({openModal}: TableType) => {
     ];
 
     useEffect(() => {
-        // instance.get<ResponseType>('', {
-        //   params: {
-        //     selectFields: 'id name poster movieLength premiere',
-        //   }
-        // })
         filmsApi.getFilms()
             .then(res => {
                 // const emptyFilms: Array<MyFilmType> = [
