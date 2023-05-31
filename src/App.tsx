@@ -36,7 +36,7 @@ export const App = () => {
             <Table openModal={openModal}/>
             <DialogStyled onClose={closeModal} open={isActive}>
                 {isLoading
-                    ? <Skeleton animation='wave' variant='rounded' sx={{ bgcolor: 'grey.600' }}>
+                    ? <Skeleton animation='wave' variant='rounded' sx={{bgcolor: 'grey.600'}}>
                         <FullImageStyled/>
                     </Skeleton>
                     : <FullImageStyled src={image.src} alt={image.alt}/>}
@@ -44,5 +44,3 @@ export const App = () => {
         </ContainerStyled>
     );
 }
-
-
