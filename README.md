@@ -6,6 +6,8 @@ this app is developed with React, TypeScipt & MUI (using DataGrid component).
 
 https://testee-alpha.vercel.app/
 
+## Sorting of column Name and Premiere is save in localStorage
+
 ## Available Scripts
 
 In the project directory, you can run:
