@@ -50,6 +50,7 @@ export const Table = ({openModal}: TableType) => {
         '& .poster': {
             padding: '5px',
             backgroundColor: '#9EC695',
+            cursor: 'pointer',
         },
         '& .name': {
             backgroundColor: '#9EC695',
